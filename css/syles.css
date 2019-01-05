@@ -1,0 +1,238 @@
+body {
+ background-color: #ECF0F1;
+}
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+.social-media {
+    position: absolute;
+    right: 10px;
+    top: 35px; }
+
+.texto-header span {
+    position: absolute;
+    top: 5px;
+    left: 0px; }
+
+.social-media-facebook {
+  font-family: Helvetica, sans-serif;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+  background: #fff;
+  padding: 5px 15px 5px 40px;
+  height: 30px;
+  position: relative;
+  margin-right: 25px;
+  color: #3b5998;
+}
+
+.social-media-twitter {
+  font-family: Helvetica, sans-serif;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  color: #00B2FF;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+  background: #fff;
+  padding: 5px 15px 5px 40px;
+  height: 30px;
+  position: relative; 
+}
+
+.social-media-facebook img,.social-media-twitter img {
+    max-height: 20px;
+    position: absolute;
+    left: 15px;
+    bottom: 5px; 
+}
+.carrossel {
+  margin-top:70px;
+} 
+   
+.carousel-control {
+  opacity: 1; }
+  .carousel-control button {
+    border: none;
+    border-radius: 100%;
+    background: #fff;
+    padding: 10px 15px; }
+  .carousel-control .botao-esquerda {
+    position: absolute;
+    left: -30px;
+    top: 150px; }
+  .carousel-control .botao-direita {
+    position: absolute;
+    right: -30px;
+    top: 150px;
+  }
+
+.carousel-caption {
+  position: absolute;
+  left: 40px;
+  bottom: -10px; }
+  .carousel-caption h3 {
+    text-transform: uppercase;
+    color: #ECF0F1;
+    background: #3498DB;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 5px 10px 5px 20px;
+    max-width: 330px;
+    text-align: left; }
+  .carousel-caption p {
+    text-align: left;
+    margin: 0;
+    font-weight: bolder;
+    font-size: 1.7rem; }
+
+.news{
+  margin-top:80px;
+}
+
+.item active{
+  
+}
+
+.highlight {
+  position: relative;
+  display: inline-block;
+  min-width: 90px;
+  top: -60px;
+  color: white;
+  background-color: rgba(231, 76, 60, 0.8);
+  padding-top: 10px;
+  padding-bottom: 8px;
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 1em;
+  font-size: .9em;
+}
+
+.texto {
+  margin-top: 30px; }
+  .texto h2 {
+    font-size: 2.6rem; }
+
+.texto-azul h2 {
+  color: #3498DB;
+  font-size: 1.6rem; }
+
+.divoltis h4 {
+  color: #3498DB;
+  font-size: 0.9rem; }
+  
+.texto-vermelho h2 {
+  color: #E74C3C;
+  font-size: 1.6rem;
+  padding-left: 13px; }
+
+.texto-vermelho h4 {
+  color: #E74C3C;
+  font-size: 0.9rem;
+   }
+  
+.divoltis{
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  color: #2C3E50;
+  margin-bottom: 10px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.titulo{
+  margin-top: 50px;
+}
+
+.paragrafo{
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  color: #2C3E50; 
+ 
+}
+
+.paragrafo p {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+}
+    
+.pirulita {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  }
+
+.cevadiss {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  }
+
+.espaco{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.navbar-dark{
+ color: #ECF0F1; 
+}
+
+.bg-dark{
+ background-color: #3498DB !important;
+}
+
+.voltar-topo {
+  text-transform: uppercase;
+  color: #ECF0F1;
+  font-size: 1.6rem;
+  background: #3498DB;
+  padding: 10px 0;
+  text-align: right; }
+  .voltar-topo .texto-topo {
+    padding-right: 10px; }
+
+.footer {
+  background: #2C3E50;
+  color: #fff;
+  font-size: 1.2rem;
+}
+.footer a {
+  text-decoration: underline; 
+    
+}
+.footer img {
+  padding: 40px 160px;
+}
+.footer p {
+  padding: 24px;  
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 400px) {
+  
+  .social-media-facebook,.social-media-twitter {
+    display: none;    
+  }
+}  
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px ) {
+     
+    .social-media-facebook,.social-media-twitter {
+    display: none;    
+  }
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .secao-sobre {
+      background-color: #F79A87;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .secao-sobre {
+      background-color: #FFF;
+  }
+} 
